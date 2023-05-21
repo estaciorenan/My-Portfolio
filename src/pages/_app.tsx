@@ -1,4 +1,3 @@
-'use client';
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Sidebar from '@/components/sidebar/sidebar';
@@ -15,16 +14,10 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <AuthContext>
-        <body className='h-100v flex-row font-mono'>
-          <aside className='w-2/12 h-screen bg-bg-aside float'>
-            <Sidebar />
-          </aside>
-          <main className='fixed h-screen w-10/12 bg-bg-main float-right top-0 right-0'>
-            <SwicthComponents />
-          </main>
-        </body>
+        <Sidebar />
+        <SwicthComponents />
       </AuthContext>
     </>
   )
 }
-export default App
+export default dynamic(() => Promise.resolve(App), { ssr: false })
