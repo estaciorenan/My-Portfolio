@@ -15,16 +15,18 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <AuthContext>
-        <body className='h-100v flex-row font-mono'>
-          <aside className='w-2/12 h-screen bg-bg-aside float'>
-            <Sidebar />
-          </aside>
-          <main className='fixed h-screen w-10/12 bg-bg-main float-right top-0 right-0'>
-            <SwicthComponents />
-          </main>
+        <body className='overflow-hidden'>
+          <div className='grid grid-cols-12 '>
+            <div className='grid col-span-2 bg-bg-aside '>
+              <Sidebar />
+            </div>
+            <div className='grid col-span-10  bg-bg-main'>
+              <SwicthComponents />
+            </div>
+          </div>
         </body>
       </AuthContext>
     </>
   )
 }
-export default App
+export default dynamic(() => Promise.resolve(App), { ssr: false })

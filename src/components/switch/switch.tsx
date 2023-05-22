@@ -9,29 +9,11 @@ export default function SwicthComponents() {
 
     switch (page) {
         case 1:
-            return (
-                <>
-                    <div className="w-4/5">
-                        < Start />
-                    </div>
-                </>
-            )
+            return <Start />
         case 2:
-            return (
-                <>
-                    <div className="w-4/5">
-                        <Work />
-                    </div>
-                </>
-            )
+            return <Work />
         case 3:
-            return (
-                <>
-                    <div className="w-4/5">
-                        <Projects />
-                    </div>
-                </>
-            )
+            return <Projects />
         default:
             return (
                 <>

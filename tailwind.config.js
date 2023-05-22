@@ -1,5 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  fontFamily: {
+    'sans': ['ui-sans-serif', 'system-ui'],
+    'serif': ['ui-serif', 'Georgia'],
+    'mono': ['ui-monospace', 'SFMono-Regular'],
+  },
+  important: true,
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -20,8 +26,8 @@ module.exports = {
         "100v": "100vh",
       },
       backgroundColor: {
-        'bg-aside': '#1B2631',
-        'bg-main': '#F8F9F9',
+        'bg-aside': '#111418',
+        'bg-main': '#212529',
         'nav-list':'#283747',
       },
       backgroundImage: {
