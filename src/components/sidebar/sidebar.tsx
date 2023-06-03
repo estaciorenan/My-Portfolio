@@ -14,7 +14,7 @@ const Sidebar = () => {
             <div className='flex flex-col h-100v justify-between'>
 
                 <div className='text-center font-bold sans text-slate-50 mt-5 text-2xl'>
-                    <h1>PORTFOLIO</h1>
+                    <h1>PORTFÓLIO</h1>
                 </div>
 
                 <div className='flex justify-center' >

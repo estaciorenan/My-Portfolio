@@ -17,9 +17,9 @@ const App = ({ Component, pageProps }: AppProps) => {
       <AuthContext>
         <body >
           <div className='
-          xl:grid lg:grid md:flex sm:flex xs:flex
-          xl:grid-cols-12 lg:grid-cols-12 md:w-full sm:w-full xs:w-full
-          '>
+            xl:grid lg:grid md:flex sm:flex xs:flex
+            xl:grid-cols-12 lg:grid-cols-12 md:w-full sm:w-full xs:w-full
+            '>
             <div className='
             xl:grid lg:grid md:flex sm:flex xs:flex
             xl:col-span-2 lg:col-span-3 md:w-full sm:w-full xs:w-full
