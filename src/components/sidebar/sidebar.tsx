@@ -50,17 +50,23 @@ const Sidebar = () => {
                     <ul >
                         <li onClick={() => setPage(1)}>
                             <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
-                                ABOUT ME
+                                <a href="#skill">
+                                    ABOUT ME
+                                </a>
                             </div>
                         </li>
                         <li onClick={() => setPage(2)}>
                             <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2   hover:bg-sky-700 font-bold hover:animate-bounce'>
-                                WORKS
+                                <a href="#works">
+                                    WORKS
+                                </a>
                             </div>
                         </li>
                         <li onClick={() => setPage(3)}>
                             <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
+                                <a href="#projects">
                                 PROJECTS
+                                </a>
                             </div>
                         </li>
                     </ul>
