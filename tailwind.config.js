@@ -13,6 +13,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'shadow-white': ' 0px 1px 8px 0px #fff',
+      },
       dropShadow: {
         'shadow-white': '1px 2px 2px rgba(255, 255, 255, 0.25)',
         '4xl': [
