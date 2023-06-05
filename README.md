@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+# Portfolio Estácio Renan
+<!-- [![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)  -->
+# Sobre o projeto
+<!-- Link -->
+Disponibilização do meu portfólio para consulta de histórico profissional e projeto pessoais.
+## Layout mobile
+<!-- ![Mobile 1](link) ![Mobile 2](link) -->
+## Layout web
+![Web 1](link)
+![Web 2](link)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Front end
+- HTML / CSS / JS / TypeScript
+- ReactJS
+- React Native
+- Fontawesome
+- Tailwindcss
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Implantação em produção
+- Front end web: Netlify
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Como executar o projeto
+## Front end web
+Pré-requisitos: npm / yarn
+```bash
+# clonar repositório
+git clone https://github.com/estaciorenan/My-Portfolio.git
+# entrar na pasta do projeto front end web
+cd My-Portfolio
+# instalar dependências
+npm install
+# executar o projeto
+ npm run dev
+```
+# Autor
+Estácio Renan de Sousa Rodrigues
+https://www.linkedin.com/in/estaciorenandesousarodrigues/
+```
