@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "@/contexts/auth";
+import { Context } from "@/app/contexts/auth";
 
 export default function Projects() {
 

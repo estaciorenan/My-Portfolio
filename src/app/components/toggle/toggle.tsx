@@ -1,6 +1,6 @@
 'use client'
 import { DarkModeSwitch } from 'animated-toggle-button';
-import { Context } from '@/contexts/auth';
+import { Context } from '@/app/contexts/auth';
 import { useContext } from 'react';
 
 export default function Toggle() {

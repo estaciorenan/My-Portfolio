@@ -1,17 +1,11 @@
 'use client';
 import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
-import Sidebar from '@/components/sidebar/sidebar';
-import SwicthComponents from '@/components/switch/switch';
-import { AuthContext } from '@/contexts/auth';
-import { Context } from '@/contexts/auth';
-import { useContext } from 'react';
+import { AuthContext } from './contexts/auth'
 import dynamic from 'next/dynamic';
+import Sidebar from './components/sidebar/sidebar';
+import SwicthComponents from './components/switch/switch';
 
-const App = ({ Component, pageProps }: AppProps) => {
-  const { themeDark, page } = useContext(Context)
-
-
+const App = () => {
   return (
     <>
       <AuthContext>
