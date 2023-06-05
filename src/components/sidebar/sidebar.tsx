@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { Context } from '@/contexts/auth';
 import Link from 'next/link';
 import Fontawesome from '../fontawesome/fontawesome';
+import img from 'next/img';
 
 const Sidebar = () => {
 

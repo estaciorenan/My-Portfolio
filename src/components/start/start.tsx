@@ -1,6 +1,7 @@
 import { Context } from "@/contexts/auth";
 import { useContext } from "react";
 import Fontawesome from "../fontawesome/fontawesome";
+import img from 'next/img'
 
 export default function Start() {
     const { themeDark, setThemeDark } = useContext(Context);

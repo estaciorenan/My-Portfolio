@@ -16,22 +16,11 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <AuthContext>
         <body >
-          <div className='
-            xl:grid lg:grid md:flex sm:flex xs:flex
-            xl:grid-cols-12 lg:grid-cols-12 md:w-full sm:w-full xs:w-full
-            '>
-            <div className='
-            xl:grid lg:grid md:flex sm:flex xs:flex
-            xl:col-span-2 lg:col-span-3 md:w-full sm:w-full xs:w-full
-            bg-bg-aside'
-            >
+          <div className=' xl:grid lg:grid md:flex sm:flex xs:flex xl:grid-cols-12 lg:grid-cols-12 md:w-full sm:w-full xs:w-full'>
+            <div className=' xl:grid lg:grid md:flex sm:flex xs:flex xl:col-span-2 lg:col-span-3 md:w-full sm:w-full xs:w-full bg-bg-aside'>
               <Sidebar />
             </div>
-            <div className='
-            xl:grid lg:grid md:flex sm:flex xs:flex
-            xl:col-span-10 lg:col-span-9 md:w-full sm:w-full xs:w-full
-            bg-bg-main '
-            >
+            <div className='xl:grid lg:grid md:flex sm:flex xs:flex xl:col-span-10 lg:col-span-9 md:w-full sm:w-full xs:w-full bg-bg-main '>
               <SwicthComponents />
             </div>
           </div>
