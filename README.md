@@ -4,10 +4,9 @@
 Link
 Disponibilização do meu portfólio para consulta de histórico profissional e projeto pessoais.
 ## Layout mobile
-<!-- ![Mobile 1](link) ![Mobile 2](link) -->
+![Mobile 1](https://github.com/estaciorenan/My-Portfolio/blob/main/public/media/tela-mobile1.PNG)
 ## Layout web
-![Web 1](link)
-![Web 2](link)
+![Web 1](https://github.com/estaciorenan/My-Portfolio/blob/main/public/media/tela-web.PNG)
 ## Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS
