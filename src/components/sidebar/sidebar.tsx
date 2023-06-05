@@ -13,7 +13,7 @@ const Sidebar = () => {
         <>
             <div className='flex flex-col h-100v justify-between'>
 
-                <div className='text-center font-bold sans text-slate-50 mt-5 text-2xl'>
+                <div className='text-center font-bold sans text-slate-50 mt-5 text-2xl' id='start-sidebar'>
                     <h1>PORTFÓLIO</h1>
                 </div>
 
@@ -65,7 +65,7 @@ const Sidebar = () => {
                         <li onClick={() => setPage(3)}>
                             <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
                                 <a href="#projects">
-                                PROJECTS
+                                    PROJECTS
                                 </a>
                             </div>
                         </li>
@@ -75,10 +75,10 @@ const Sidebar = () => {
                 <div className='flex-col text-center mt-4'>
                     <ul >
                         <li onClick={() => setPage(1)}>
-                            <a href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQJY6J2s_T27QAAAAYhEQD7QbgMF-6b3-UoSVfFZa97Pg3COPxC4AHmJ_Smh40ZI5MtE-MoCbY3yAtPdxQqPqdpAL90Bwx8ms2BSFSkOb3Pu_NF8daTyNPRo-u3ejjDX4SLmUaR2MAAfjnbWcFaNk49QcdiuKPQ9vW3abQICPyd9jcMxRv2DSVd6A-DztVSHg_ADhquXgSGOmZE-jJyYV42VOr20tk7Bs9ty8m_7Iru7VnQGwSag7MfFKB-0cHLpv83SmAMuh1lN3xk1q6_aC7Y2wTdkOLDwRM4Y3NeryJnkFPiCRn4I6xJIvQbfTB69hj9aDRwWqsa9h_61XY-hrBPZLQn7LZc_SzWg4zz3ktMoBY7uKl8D1Nf47ONXLxO3ENc90QAVWid_5LUI6njGJiQnFFdIR1NlH47M4kQ7bnPyy9hnaLiUkGhY105Zi6UwOD-6c7FW-XpUleWxSCuJOH6LNrgHqQuM0_IbjwWjRowhXPiJPCD-rw9vngrvVin7bNgf0wY0mNDF4KhR-2HdypjPgmLcTzAg1gFgcF8iJBOAN6TC9PF4GbhkPhP5qIy4xKY_CA&x-ambry-um-filename=Profile.pdf" download>
+                            <a href=" https://www.linkedin.com/ambry/?x-li-ambry-ep=AQLM13xuyk-b_QAAAYiLAYocfldClOA7VqFQGJfxF-eH4w47d_f4rYNpVXTLzyMjAPDu2KY2AP5JpCkfm0YiZnYylOSD8w3xEeVoVSOpKqkvWZWc0vqtRY7Zd9YxhuPGQ4Fh6JpEQVaSqUqF2VoqgfnIXqYlBARkFFALFoRFJ6iLDoiRvY3FtB2cDzPEd8o--T-TupStaWDg8s-b3BUaPLHkuEI_RIL1xBA06s7UIz74tnTVN6Rm5bnmv_9jg-g9BhW_izIpOSiIukLO6P2hnBDe7HP0ACIn4Pf2iKH0OAakrrAaRTy7pYCOenuyn5VzTLZb9W2wbPp1N5tIJtBkVIrICPrZ0Qly0xX3yQKpr8qaRHKEeJnZnCL8GRuqoUyXawVE7Zz9kFKuvoRFDoiL5KCPVaUZateHDg3t5Jnbl2KaJ_gYvCuWAUxZyjDgtWMjdtY96j35hwhin0f1l0lr3mI1kwbevsp5zb2dG28Pwolf86WuosvnlZ3ET3KjthW4nrTwxhzLmr1Al6ymepQFybpGkoYDJW9PmCetDpcbjMhPmzLWwYfHq51cQ-GbIFJhsvjw5w&x-ambry-um-filename=Profile.pdf"
+                                download>
                                 <div className='border-2 text-slate-50 cursor-pointer p-2 m-2  rounded-xl font-bold hover:text-sky-600 hover:border-sky-600 animate-pulse'>
                                     RESUME  <Fontawesome classe="fa-solid fa-cloud-arrow-down" />
-
                                 </div>
                             </a>
                         </li>
