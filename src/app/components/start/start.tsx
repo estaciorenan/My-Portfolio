@@ -136,7 +136,7 @@ export default function Start() {
 
                             <div className="flex flex-col bg-gray-800 border-2 border-slate-600 hover:border-sky-700 p-2 w-52 h-52 rounded-md break-words">
                                 <div className="flex justify-center">
-                                    <img src={'/media/tecnology/Tailwind.png'} width={43} height={43} alt="NodeJS" className="drop-shadow-shadow-white" />
+                                    <img src={'/media/tecnology/tailwind.png'} width={43} height={43} alt="NodeJS" className="drop-shadow-shadow-white" />
                                 </div>
                                 <div >
                                     <h3 className=" text-slate-50 text-bold text-center">Tailwind</h3>
