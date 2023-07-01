@@ -83,24 +83,6 @@ export default function Work() {
                             </div>
 
                         </div>
-
-                        {
-                            dataModal?.filter((fill) => fill.id === 1).map((m) => {
-                             return(
-                                <>
-                                 <Modal 
-                                 id={m?.id}
-                                 name={m?.name} 
-                                 image={m?.image}
-                                 information={m?.information} 
-                                 technologies={m?.technologies} 
-                                 activities={m?.activities}
-                                    />
-                                </>
-                             )
-                            })
-                        }
-
                         {/* ---------------------------------------------Content End--------------------------------------------- */}
 
                     </div>
