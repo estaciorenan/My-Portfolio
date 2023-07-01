@@ -60,7 +60,7 @@ export default function Start() {
                             "
                         >
                             {
-                                dataTech?.map(map => <Card img={map?.img} title={map?.title} paragraph={map?.paragraph} />)
+                                dataTech?.map(map => <Card img={map?.img} title={map?.title} key={map?.title} paragraph={map?.paragraph} />)
                             }
                         </div>
 
