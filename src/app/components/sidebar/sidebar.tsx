@@ -75,7 +75,7 @@ const Sidebar = () => {
                 <div className='flex-col text-center mt-4'>
                     <ul >
                         <li onClick={() => setPage(1)}>
-                            <a href=" https://www.linkedin.com/ambry/?x-li-ambry-ep=AQLM13xuyk-b_QAAAYiLAYocfldClOA7VqFQGJfxF-eH4w47d_f4rYNpVXTLzyMjAPDu2KY2AP5JpCkfm0YiZnYylOSD8w3xEeVoVSOpKqkvWZWc0vqtRY7Zd9YxhuPGQ4Fh6JpEQVaSqUqF2VoqgfnIXqYlBARkFFALFoRFJ6iLDoiRvY3FtB2cDzPEd8o--T-TupStaWDg8s-b3BUaPLHkuEI_RIL1xBA06s7UIz74tnTVN6Rm5bnmv_9jg-g9BhW_izIpOSiIukLO6P2hnBDe7HP0ACIn4Pf2iKH0OAakrrAaRTy7pYCOenuyn5VzTLZb9W2wbPp1N5tIJtBkVIrICPrZ0Qly0xX3yQKpr8qaRHKEeJnZnCL8GRuqoUyXawVE7Zz9kFKuvoRFDoiL5KCPVaUZateHDg3t5Jnbl2KaJ_gYvCuWAUxZyjDgtWMjdtY96j35hwhin0f1l0lr3mI1kwbevsp5zb2dG28Pwolf86WuosvnlZ3ET3KjthW4nrTwxhzLmr1Al6ymepQFybpGkoYDJW9PmCetDpcbjMhPmzLWwYfHq51cQ-GbIFJhsvjw5w&x-ambry-um-filename=Profile.pdf"
+                            <a href="/media/resume.pdf"
                                 download>
                                 <div className='border-2 text-slate-50 cursor-pointer p-2 m-2  rounded-xl font-bold hover:text-sky-600 hover:border-sky-600 animate-pulse'>
                                     RESUME  <Fontawesome classe="fa-solid fa-cloud-arrow-down" />
