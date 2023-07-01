@@ -33,7 +33,7 @@ export default function Work() {
                             <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div>
                                     <a href="#">
-                                        <img className="rounded-t-lg" src="/media/works/sismogran_tela.png" alt="" />
+                                        <img className="rounded-t-lg" src="/media/works/sismogran_tela1.png" alt="" />
                                     </a>
                                     <div className="p-2 w-full">
                                         <a href="#">
@@ -59,7 +59,7 @@ export default function Work() {
                             <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div>
                                     <a href="#">
-                                        <img className="rounded-t-lg" src="/media/works/sismaplan_tela.png" alt="" />
+                                        <img className="rounded-t-lg" src="/media/works/sismaplan_tela1.png" alt="" />
                                     </a>
                                     <div className="p-2 w-full">
                                         <a href="#">
