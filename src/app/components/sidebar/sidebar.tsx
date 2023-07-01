@@ -14,16 +14,16 @@ const Sidebar = () => {
             <div className='flex flex-col h-100v justify-between'>
 
                 <div className='text-center font-bold sans text-slate-50 mt-5 text-2xl' id='start-sidebar'>
-                    <h1>PORTFÓLIO</h1>
+                    <h1>PORTFOLIO</h1>
                 </div>
 
                 <div className='flex justify-center' >
                     <img src={'/media/perfil.png'} alt="Imagem de perfil" className='w-2/4 border-2 rounded-full ' />
                 </div>
 
-                <div className='text-center  mt-1 text-slate-50 text-lg'>
+                <div className='text-center mt-1 text-slate-50 text-lg'>
                     <h1>Estácio Renan</h1>
-                    <h3>Full-Stack Jr</h3>
+                    <h3>Front End</h3>
                 </div>
 
                 <div className='mt-2'>
@@ -49,25 +49,25 @@ const Sidebar = () => {
                 <div className='flex-col text-center mt-4'>
                     <ul >
                         <li onClick={() => setPage(1)}>
-                            <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
-                                <a href="#skill">
+                            <a href="#skill">
+                                <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
                                     ABOUT ME
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </li>
                         <li onClick={() => setPage(2)}>
-                            <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2   hover:bg-sky-700 font-bold hover:animate-bounce'>
-                                <a href="#works">
+                            <a href="#works">
+                                <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2   hover:bg-sky-700 font-bold hover:animate-bounce'>
                                     WORKS
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </li>
                         <li onClick={() => setPage(3)}>
-                            <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
-                                <a href="#projects">
+                            <a href="#projects">
+                                <div className='text-slate-50 cursor-pointer p-2 pb-2 pt-2  hover:bg-sky-700 font-bold hover:animate-bounce'>
                                     PROJECTS
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -89,7 +89,7 @@ const Sidebar = () => {
                 <div className='text-center text-slate-50 mb-2 text-xs'>
                     © 2023 – All rights reserved <br /> Desenvolvido por Estácio Renan
                 </div>
-            </div>
+            </div >
         </>
     )
 }

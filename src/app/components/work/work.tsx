@@ -1,5 +1,5 @@
-import { useContext } from "react";
-import { Context } from "@/app/contexts/auth";
+import Modal from "../modal/modal";
+import { dataModal } from "@/app/data/dataWorks";
 
 export default function Work() {
     return (
@@ -11,7 +11,7 @@ export default function Work() {
 
                         {/* ---------------------------------------------Content--------------------------------------------- */}
 
-                        <div className="text-center p-5" id='skill'>
+                        <div className="text-center p-5" id='works'>
                             <h2 className=" relative text-6xl uppercase p-22 font-bold text-gray-700">Works</h2>
                             <p className="relative -top-8  text-4xl text-slate-50 font-bold">
                                 Trabalhos <span className="underline decoration-sky-700">Profissionais</span>
@@ -84,10 +84,22 @@ export default function Work() {
 
                         </div>
 
-
-
-
-
+                        {
+                            dataModal?.filter((fill) => fill.id === 1).map((m) => {
+                             return(
+                                <>
+                                 <Modal 
+                                 id={m?.id}
+                                 name={m?.name} 
+                                 image={m?.image}
+                                 information={m?.information} 
+                                 technologies={m?.technologies} 
+                                 activities={m?.activities}
+                                    />
+                                </>
+                             )
+                            })
+                        }
 
                         {/* ---------------------------------------------Content End--------------------------------------------- */}
 
