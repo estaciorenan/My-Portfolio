@@ -76,7 +76,7 @@ const Sidebar = () => {
                     <ul >
                         <li onClick={() => setPage(1)}>
                             <a href="/media/resume.pdf"
-                                download>
+                                 target='_blank'>
                                 <div className='border-2 text-slate-50 cursor-pointer p-2 m-2  rounded-xl font-bold hover:text-sky-600 hover:border-sky-600 animate-pulse'>
                                     RESUME  <Fontawesome classe="fa-solid fa-cloud-arrow-down" />
                                 </div>
