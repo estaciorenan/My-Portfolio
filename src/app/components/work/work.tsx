@@ -30,52 +30,78 @@ export default function Work() {
                         >
 
 
-                            <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-bg-aside border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div>
                                     <a href="#">
                                         <img className="rounded-t-lg" src="/media/works/sismogran_tela1.png" alt="" />
                                     </a>
                                     <div className="p-2 w-full">
                                         <a href="#">
-                                            <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">DTLA - Sismogran</h5>
+                                            <h5 className="mb-2 text-1xl font-bold tracking-tight text-slate-50 dark:text-white">DTLA - Sismogran</h5>
                                         </a>
-                                        <p className="mb-2 font-normal text-gray-700 dark:text-slate-50 text-left">Sistema de monitoramento de umidade e temperatura de equipamentos e ambiente.</p>
+                                        <p className="mb-2 font-normal text-slate-50 dark:text-slate-50 text-left">Sistema de monitoramento de umidade e temperatura de equipamentos e ambiente.</p>
                                     </div>
                                 </div>
                                 <div className="flex justify-between mx-1">
                                     <a href="https://mtechsp.com.br/monitoramento/" target="_blank">
-                                        <button type="button" className="ml-2 text-gray-900 bg-white border focus:outline-none border-gray-300  hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                        <button type="button" className="ml-2  text-slate-50  border focus:outline-none  hover:border-sky-700   focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                                             Sobre
                                         </button>
                                     </a>
                                     <a href="https://dtlab4.dtlab.com.br/" target="_blank">
-                                        <button type="button" className="mr-2 text-gray-900 bg-white border border-gray-300  hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                        <button type="button" className="mr-2  text-slate-50  border  hover:border-sky-700 focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                                             Projeto
                                         </button>
                                     </a>
                                 </div>
                             </div>
 
-                            <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-bg-aside   rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <div>
                                     <a href="#">
                                         <img className="rounded-t-lg" src="/media/works/sismaplan_tela1.png" alt="" />
                                     </a>
                                     <div className="p-2 w-full">
                                         <a href="#">
-                                            <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">DTLA - Sismaplan</h5>
+                                            <h5 className="mb-2 text-1xl font-bold tracking-tight text-slate-50 dark:text-white">DTLA - Sismaplan</h5>
                                         </a>
-                                        <p className="mb-2 font-normal text-gray-700 dark:text-slate-50 text-left">Sistema de Gestão Integrado para seguimento de ativos e serviços.</p>
+                                        <p className="mb-2 font-normal text-slate-50 dark:text-slate-50 text-left">Sistema de Gestão Integrado para seguimento de ativos e serviços.</p>
                                     </div>
                                 </div>
                                 <div className="flex justify-between mx-1">
                                     <a href="https://mtechsp.com.br/gestao/" target="_blank">
-                                        <button type="button" className="ml-2 text-gray-900 bg-white border focus:outline-none border-gray-300  hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                        <button type="button" className="ml-2 text-slate-50   border focus:outline-none border-gray-300  hover:border-sky-700   focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                                             Sobre
                                         </button>
                                     </a>
                                     <a href="https://dtlab4.dtlab.com.br/" target="_blank">
-                                        <button type="button" className="mr-2 text-gray-900 bg-white border border-gray-300  hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                        <button type="button" className="mr-2 text-slate-50  border border-gray-300  hover:border-sky-700   focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                            Projeto
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="xl:w-3/12 lg:w-3/12 md:w-12/12 sm:w-12/12 xs:w-12/12 md:m-2 sm:m-2 xs:m-2 bg-bg-aside   rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <div>
+                                    <a href="#">
+                                        <img className="rounded-t-lg" src="/media/works/sismaplan_manfing1.png" alt="" />
+                                    </a>
+                                    <div className="p-2 w-full">
+                                        <a href="#">
+                                            <h5 className="mb-2 text-1xl font-bold tracking-tight text-slate-50 dark:text-white">Manfing One</h5>
+                                        </a>
+                                        <p className="mb-2 font-normal text-slate-50 dark:text-slate-50 text-left">Sistema de Previsão de Vendas e demanda que utilizar IA.</p>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between mx-1">
+                                    <a href="https://www.manfing.com/funcionalidades" target="_blank">
+                                        <button type="button" className="ml-2 text-slate-50   border focus:outline-none border-gray-300  hover:border-sky-700   focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                                            Sobre
+                                        </button>
+                                    </a>
+                                    <a href="https://app.manfing.com/" target="_blank">
+                                        <button type="button" className="mr-2 text-slate-50  border border-gray-300  hover:border-sky-700   focus:ring-2 focus:ring-gray-200 font-mono rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                                             Projeto
                                         </button>
                                     </a>

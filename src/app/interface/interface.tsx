@@ -1,7 +1,6 @@
 export interface DataCards {
     img: string,
     title:string,
-    paragraph: string
 }
 
 export interface DataWorks {
