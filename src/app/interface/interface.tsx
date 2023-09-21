@@ -1,8 +1,8 @@
 export interface DataCards {
     img: string,
     title:string,
+    loading: boolean,
 }
-
 export interface DataWorks {
     id: number,
     name: string,

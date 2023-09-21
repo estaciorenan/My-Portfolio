@@ -1,11 +1,17 @@
 import { Context } from "@/app/contexts/auth";
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import Card from "../card/card";
 import { dataTech } from "@/app/data/technologies";
 
-
 export default function Start() {
     const { themeDark, setThemeDark } = useContext(Context);
+    const [loading, setLoading] = useState<boolean>(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 800)
+    })
 
     return (
         <>
@@ -32,7 +38,7 @@ export default function Start() {
                                 </div>
                                 <div className=" pt-5 sm:p-3 xs:p-2 text-justify text-slate-50 ">
                                     <p className="m-3">
-                                        Sou desenvolvedor Front End Pleno utilizando a biblioteca <span className="text-sky-700">ReactJS</span>, frameworks como 
+                                        Sou desenvolvedor Front End Pleno utilizando a biblioteca <span className="text-sky-700">ReactJS</span>, frameworks como
                                         <span className="text-sky-700"> NextJS</span> e <span className="text-sky-700">Vue</span>, mas
                                         me aprimorando no Back-End com a stack voltada para plataforma <span className="text-sky-700">Node </span>
                                         utilizando o <span className="text-sky-700">Express</span>, <span className="text-sky-700">Fastify</span>,
@@ -49,7 +55,6 @@ export default function Start() {
                                 Habilidades nas   <span className="underline decoration-sky-700">Tecnologias</span>
                             </p>
                         </div>
-
                         <div
                             className="
                             flex flex-wrap justify-left
@@ -60,10 +65,9 @@ export default function Start() {
                             "
                         >
                             {
-                                dataTech?.map(map => <Card img={map?.img} title={map?.title} key={map?.title} />)
+                                dataTech?.map(map => <Card img={map?.img} title={map?.title} key={map?.title} loading={loading}/>)
                             }
                         </div>
-
                     </div>
                 </div>
             </div>

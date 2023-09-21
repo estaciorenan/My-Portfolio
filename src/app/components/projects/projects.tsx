@@ -1,9 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Context } from "@/app/contexts/auth";
+import Skeleton from "react-loading-skeleton";
 
 export default function Projects() {
-
     const { themeDark } = useContext(Context);
+    const [loading, setLoading] = useState<boolean>(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 500)
+    })
 
     return (
         <>
@@ -19,14 +26,20 @@ export default function Projects() {
                                 <span className="underline decoration-sky-700">Projetos</span> Pessoais Práticos
                             </p>
                         </div>
-                        <div  className="w-full flex justify-center text-lg text-slate-50 text-center ">
+                        <div className="w-full flex justify-center text-lg text-slate-50 text-center ">
                             Atualizando e preparando projetos <br />
                             Em breve disponível
                         </div>
-                        <div className="w-full flex justify-center">
-                        <iframe src="https://embed.lottiefiles.com/animation/42637"></iframe>
-                        </div>
-
+                        {
+                            loading ?
+                                <div className="w-full flex justify-center">
+                                    <Skeleton height={'150px'} width={"300px"} baseColor="#616161" highlightColor="#f5f5f5" direction='rtl' borderRadius={15} />
+                                </div>
+                                :
+                                <div className="w-full flex justify-center">
+                                    <iframe src="https://embed.lottiefiles.com/animation/42637"></iframe>
+                                </div>
+                        }
                         {/* ---------------------------------------------Content End--------------------------------------------- */}
                     </div>
                 </div>
