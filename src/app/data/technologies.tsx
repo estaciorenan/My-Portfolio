@@ -25,11 +25,11 @@ export const dataTech = [
         title: 'ReactJS',
         paragraph: 'É uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
     },
-    {
-        img: '/media/tecnology/native.png',
-        title: 'React Native',
-        paragraph: 'É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.',
-    },
+    // {
+    //     img: '/media/tecnology/native.png',
+    //     title: 'React Native',
+    //     paragraph: 'É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.',
+    // },
     {
         img: '/media/tecnology/Tailwind.png',
         title: 'Tailwind',
@@ -37,7 +37,7 @@ export const dataTech = [
     },
     {
         img: '/media/tecnology/styled.png',
-        title: 'Styled-Components',
+        title: 'Styled Components',
         paragraph: 'Biblioteca de estilização em componentes criada dentro do arquivo javascript.',
     },
     {
@@ -60,16 +60,16 @@ export const dataTech = [
         title: 'Node',
         paragraph: 'Executa códigos JavaScript fora de um navegador web, arquitetura assíncrona e orientada por eventos.',
     },
-    {
-        img: '/media/tecnology/NestJS.png',
-        title: 'NestJS',
-        paragraph: 'Framework back-end baseado no Express, utilizando o Typescript trazendo confiança e escalabilidade.',
-    },
-    {
-        img: '/media/tecnology/fastify.png',
-        title: 'Fastify',
-        paragraph: 'Framework back-end baseado no Express e inspirado em plug-in permitindo melhor reusabilidade.',
-    },
+    // {
+    //     img: '/media/tecnology/NestJS.png',
+    //     title: 'NestJS',
+    //     paragraph: 'Framework back-end baseado no Express, utilizando o Typescript trazendo confiança e escalabilidade.',
+    // },
+    // {
+    //     img: '/media/tecnology/fastify.png',
+    //     title: 'Fastify',
+    //     paragraph: 'Framework back-end baseado no Express e inspirado em plug-in permitindo melhor reusabilidade.',
+    // },
     {
         img: '/media/tecnology/express.png',
         title: 'Express',
@@ -80,21 +80,21 @@ export const dataTech = [
         title: 'MySQL',
         paragraph: 'Sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.',
     },
-    {
-        img: '/media/tecnology/mongodb.png',
-        title: 'MongoDB',
-        paragraph: 'Banco de dados de documentos com a consulta e indexação na nuvem ou servidor.',
-    },
-    {
-        img: '/media/tecnology/sqllite.png',
-        title: 'SQLite',
-        paragraph: 'Biblioteca em linguagem C que implementa uma base de dados SQL embutida.',
-    },
-    {
-        img: '/media/tecnology/prisma.png',
-        title: 'Prisma',
-        paragraph: 'ORM que cosntroi queries de forma automatizadas com sistema de migração e interface.',
-    },
+    // {
+    //     img: '/media/tecnology/mongodb.png',
+    //     title: 'MongoDB',
+    //     paragraph: 'Banco de dados de documentos com a consulta e indexação na nuvem ou servidor.',
+    // },
+    // {
+    //     img: '/media/tecnology/sqllite.png',
+    //     title: 'SQLite',
+    //     paragraph: 'Biblioteca em linguagem C que implementa uma base de dados SQL embutida.',
+    // },
+    // {
+    //     img: '/media/tecnology/prisma.png',
+    //     title: 'Prisma',
+    //     paragraph: 'ORM que cosntroi queries de forma automatizadas com sistema de migração e interface.',
+    // },
     {
         img: '/media/tecnology/git.png',
         title: 'Git',

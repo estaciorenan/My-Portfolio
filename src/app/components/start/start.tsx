@@ -33,16 +33,14 @@ export default function Start() {
                             pt-2  
                             w-4/4
                             ">
-                                <div className="text-2xl  uppercase font-bold text-slate-50 text-center">
-                                    Prazer me chamo <span className="text-sky-700">Estácio Renan</span> <br /> seja bem vindo ao meu portfolio
+                                <div className="xl:text-xl md:text-lg  uppercase font-bold text-slate-50 text-center">
+                                    Prazer me chamo <span className="text-sky-700">Estácio Renan</span> <br /> seja bem vindo ao meu portfólio
                                 </div>
                                 <div className=" pt-5 sm:p-3 xs:p-2 text-justify text-slate-50 ">
-                                    <p className="m-3">
-                                        Sou desenvolvedor Front End Pleno utilizando a biblioteca <span className="text-sky-700">ReactJS</span>, frameworks como
-                                        <span className="text-sky-700"> NextJS</span> e <span className="text-sky-700">Vue</span>, mas
-                                        me aprimorando no Back-End com a stack voltada para plataforma <span className="text-sky-700">Node </span>
-                                        utilizando o <span className="text-sky-700">Express</span>, <span className="text-sky-700">Fastify</span>,
-                                        <span className="text-sky-700"> NextJS</span> e <span className="text-sky-700">Nestjs</span> onde me considero Júnior, graduado em Análise e
+                                    <p className="m-3 xl:text-base md:text-sm">
+                                        Sou desenvolvedor Front End Pleno utilizando a biblioteca <span className="text-sky-700 text">ReactJS</span>, frameworks como
+                                        <span className="text-sky-700"> NextJS</span> e <span className="text-sky-700">Vue</span>, no Back-End com a stack voltada para plataforma <span className="text-sky-700">Node </span>
+                                        utilizando o <span className="text-sky-700">Express</span> onde me considero Júnior, graduado em Análise e
                                         desenvolvimento de sistemas e Pós Graduado em Gestão de Tecnologia.
                                     </p>
                                 </div>
@@ -57,9 +55,9 @@ export default function Start() {
                         </div>
                         <div
                             className="
-                            flex flex-wrap justify-left
-                            xl:pl-20 lg:pl-20 md:pl-3 sm:pl-3 xs:pl-3 
-                            xl:pr-20 lg:pr-20 md:pl-3 sm:pl-3 xs:pl-3 
+                            flex flex-wrap justify-center 
+                            xl:pl-20 lg:pl-20 md:pl-3  xs:pl-3 
+                            xl:pr-20 lg:pr-20 md:pl-3  xs:pl-3 
                             pt-2 pb-2
                             gap-2
                             "
