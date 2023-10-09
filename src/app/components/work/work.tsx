@@ -1,4 +1,4 @@
-import { useEffect, useState, FC } from "react";
+import React, { useEffect, useState, FC } from "react";
 import Skeleton from "react-loading-skeleton";
 import { Button, Dialog, DialogTitle, DialogContent, DialogActions, IconButton, Typography, styled } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
@@ -11,11 +11,20 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     '& .MuiDialogActions-root': {
         padding: theme.spacing(1),
     },
-}));
+}))
 
-const Work: FC = () => {
+interface workProps {
+    open: boolean,
+    image: string,
+    title: string,
+    information: string,
+    technologies: string,
+    activities: string
+}
+
+const Work: React.FC = () => {
     const [loading, setLoading] = useState<boolean>(true),
-        [sendModal, setSendModal] = useState<Object>(
+        [sendModal, setSendModal] = useState<workProps>(
             {
                 open: false,
                 image: '',
@@ -41,9 +50,11 @@ const Work: FC = () => {
     const handleClose = () => {
         setSendModal({
             open: false,
+            image: '',
             title: '',
-            description: '',
-            technology: ''
+            information: '',
+            technologies: '',
+            activities: ''
         })
     }
 
@@ -165,51 +176,51 @@ const Work: FC = () => {
                         {/* ---------------------------------------------Content End--------------------------------------------- */}
 
                         {/* ---------------------------------------------Modal --------------------------------------------- */}
-
-                        <BootstrapDialog
-                            onClose={handleClose}
-                            aria-labelledby="customized-dialog-title"
-                            open={sendModal?.open}
-                        >
-                            <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title" className="bg-bg-aside  text-slate-50">
-                                {sendModal?.title}
-                            </DialogTitle>
-                            <IconButton
-                                aria-label="close"
-                                onClick={handleClose}
-                                sx={{
-                                    position: 'absolute',
-                                    right: 8,
-                                    top: 8,
-                                    color: (theme) => theme.palette.grey[500],
-                                }}
+                        {sendModal.open && (
+                            <BootstrapDialog
+                                onClose={handleClose}
+                                aria-labelledby="customized-dialog-title"
+                                open={sendModal?.open}
                             >
-                                <CloseIcon />
-                            </IconButton>
-                            <DialogContent dividers className="bg-bg-aside ">
-                                <div className="w-full flex justify-center py-2">
-                                    <img src={sendModal?.image} alt="" className="w-full h-80" />
-                                </div>
-                                <Typography gutterBottom>
-                                    <h3>
-                                        <strong className="text-center text-slate-50">
-                                            {sendModal?.information}
-                                        </strong>
-                                    </h3>
-                                </Typography>
-                                <Typography gutterBottom>
-                                    <div className="text-justify text-slate-50">
-                                        {sendModal?.activities}
+                                <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title" className="bg-bg-aside  text-slate-50">
+                                    {sendModal?.title}
+                                </DialogTitle>
+                                <IconButton
+                                    aria-label="close"
+                                    onClick={handleClose}
+                                    sx={{
+                                        position: 'absolute',
+                                        right: 8,
+                                        top: 8,
+                                        color: (theme) => theme.palette.grey[500],
+                                    }}
+                                >
+                                    <CloseIcon />
+                                </IconButton>
+                                <DialogContent dividers className="bg-bg-aside ">
+                                    <div className="w-full flex justify-center py-2">
+                                        <img src={sendModal?.image} alt="" className="w-full h-80" />
                                     </div>
-                                </Typography>
-                                <Typography gutterBottom>
-                                    <div className="text-sky-700 text-justify">
-                                        {sendModal?.technologies}
-                                    </div>
-                                </Typography>
-                            </DialogContent>
-                        </BootstrapDialog>
-
+                                    <Typography gutterBottom>
+                                        <h3>
+                                            <strong className="text-center text-slate-50">
+                                                {sendModal?.information}
+                                            </strong>
+                                        </h3>
+                                    </Typography>
+                                    <Typography gutterBottom>
+                                        <div className="text-justify text-slate-50">
+                                            {sendModal?.activities}
+                                        </div>
+                                    </Typography>
+                                    <Typography gutterBottom>
+                                        <div className="text-sky-700 text-justify">
+                                            {sendModal?.technologies}
+                                        </div>
+                                    </Typography>
+                                </DialogContent>
+                            </BootstrapDialog>
+                        )}
                         {/* ---------------------------------------------Modal End--------------------------------------------- */}
                     </div>
                 </div>
