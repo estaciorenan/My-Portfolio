@@ -11,6 +11,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     '& .MuiDialogActions-root': {
         padding: theme.spacing(1),
     },
+    background:"#000000ba",
 }))
 
 interface workProps {
@@ -193,6 +194,7 @@ const Work: React.FC = () => {
                                         right: 8,
                                         top: 8,
                                         color: (theme) => theme.palette.grey[500],
+
                                     }}
                                 >
                                     <CloseIcon />

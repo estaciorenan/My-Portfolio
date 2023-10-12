@@ -20,15 +20,15 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 8px grey;
+  box-shadow: inset 0 0 8px rgb(51, 51, 51);
 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1d2639;
+  background: #202020;
   border-radius: 10px;
-  border: 1px solid #3B3E41;
+  border: 1px solid #464646;
 }
 
 /* Handle on hover */
